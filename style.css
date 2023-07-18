@@ -1,0 +1,29 @@
+body{
+    background:url(./5bc1bddc6efee1b27dc339a4efbb87fd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color:white;
+    font-weight: bold;
+    font-size: 25px;  
+    height: 100vh; 
+}
+h1{
+    color:goldenrod;
+    font-size: 80px;
+    
+}
+#message-el{
+    font-style: italic;
+}
+button{
+    color:#016f32;
+    background-color: goldenrod;
+    width:190px;
+    font-size: 25px;
+    font-weight: bold;  
+    border:none;
+    border-radius:5px ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
