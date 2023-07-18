@@ -27,3 +27,29 @@ button{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+.score{
+    display:flex;
+    justify-content:center;
+}
+.win{
+    margin-right: 10px;
+    margin-top: -10px;
+}
+.lose{
+    margin-left: 10px;
+    margin-top: -10px;
+}
+@media(max-width:500px){
+    .score{
+        flex-direction:column;
+    }
+    .win{
+        margin-right: 0px;
+        margin-top: -10px;
+    }
+    .lose{
+        margin-left: 0px;
+        margin-top: -10px;
+    }
+
+}
